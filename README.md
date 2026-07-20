@@ -1,25 +1,10 @@
-# Rachana Reddy – Professional Portfolio
+Rachana Professional Portfolio - Workshops 1 to 3
 
-This GitHub Pages portfolio includes:
-
-- A professional home page
-- Workshop 1 Artifact 1: **Evolution of Artificial Intelligence**
-- A required artifact reflection
-- A professional growth summary based on the Workshop 1 assessments
-- A downloadable resume
-- A temporary profile picture that can be replaced later
-- Responsive design for desktop, tablet, and mobile
-
-## Files
-
-```text
-rachana-github-portfolio/
-├── index.html
-├── artifact-1.html
-├── styles.css
-├── script.js
-├── README.md
-└── assets/
-    ├── Profile_pic.png
-    └── Rachana_S_Developer_Resume.pdf
-```
+Included files:
+- index.html
+- artifact-1.html (AI timeline + 1.4 StudySmart AI Lab + detailed reflection)
+- artifact-2.html (machine-learning types, ML vs. deep learning case study, leadership, detailed reflection)
+- artifact-3.html (neural-network training, ANN/CNN/RNN/GAN, ethics, communication, detailed reflection)
+- styles.css
+- script.js
+- assets/1.4_AI_Lab.docx
