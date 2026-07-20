@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Artifact 2: Machine Learning Decision Guide covering major learning types, ML versus deep learning, adaptability, and change leadership.">
+  <title>Artifact 2 | Machine Learning Decision Guide</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">RR</span><span>Rachana Reddy</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-menu"><span class="sr-only">Open navigation menu</span>☰</button>
+      <div class="nav-links" id="primary-menu">
+        <a href="index.html#artifacts">All Artifacts</a>
+        <a href="#overview">Overview</a>
+        <a href="#learning-types">ML Types</a>
+        <a href="#case-study">Case Study</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#reflection">Reflection</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="artifact-hero artifact-hero-two">
+      <div class="container narrow reveal">
+        <a class="back-link" href="index.html">← Back to portfolio</a>
+        <p class="eyebrow">Professional Portfolio · Artifact 2</p>
+        <h1>Machine Learning Decision Guide</h1>
+        <p class="artifact-intro">
+          A Workshop 2 learning artifact explaining the major types of machine learning, comparing traditional
+          machine learning with deep learning, and connecting technical choices to adaptability and change leadership.
+        </p>
+        <div class="artifact-meta">
+          <span>Workshop 2</span><span>Machine Learning Types</span><span>ML vs. Deep Learning</span><span>Change Leadership</span>
+        </div>
+        <div class="hero-actions"><a class="button" href="#learning-types">Explore the Guide</a><a class="button button-secondary" href="#reflection">Read Reflection</a></div>
+      </div>
+    </section>
+
+    <nav class="artifact-jump" aria-label="Artifact sections"><div class="container"><a href="#overview">Overview</a><a href="#learning-types">Learning Types</a><a href="#case-study">Case Study</a><a href="#leadership">Change Leadership</a><a href="#reflection">Reflection</a></div></nav>
+
+    <section class="section" id="overview">
+      <div class="container narrow">
+        <div class="section-heading reveal"><p class="eyebrow">Artifact overview</p><h2>Choosing the right learning approach for the problem</h2></div>
+        <div class="prose reveal">
+          <p>
+            I created this decision guide to demonstrate that understanding machine learning is not only about
+            remembering definitions. A professional must be able to identify the business problem, recognize what
+            kind of data is available, determine how much human labeling is realistic, select an appropriate model,
+            and explain the choice to stakeholders. The best solution is not always the most advanced model; it is
+            the approach that matches the problem, data, risk, budget, and need for interpretability.
+          </p>
+          <p>
+            The guide organizes the major learning types and applies them to a realistic manufacturing quality
+            scenario. It also addresses the leadership side of AI integration. Even a technically strong model can
+            fail when employees do not understand its purpose, data is unreliable, expectations are unrealistic, or
+            leaders do not communicate how roles and decisions will change.
+          </p>
+        </div>
+        <div class="audience-grid reveal">
+          <article><h3>Intended audience</h3><p>Hiring managers, project leaders, software teams, business analysts, and nontechnical stakeholders evaluating an AI/ML initiative.</p></article>
+          <article><h3>Professional purpose</h3><p>To demonstrate model-selection judgment, technical explanation, case analysis, adaptability, ethical awareness, and change-leadership thinking.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="learning-types">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">Core knowledge</p><h2>Four major types of machine learning</h2><p>Each learning type answers a different question and depends on a different relationship between data, feedback, and desired outcomes.</p></div>
+
+        <div class="concept-grid">
+          <article class="concept-card reveal">
+            <span class="concept-icon">S</span>
+            <h3>Supervised learning</h3>
+            <p>The model learns from labeled examples where the correct outcome is already known. It is useful for classification and numeric prediction.</p>
+            <dl class="mini-definition"><div><dt>Inputs</dt><dd>Labeled historical data</dd></div><div><dt>Examples</dt><dd>Fraud detection, sales forecasting, defect classification</dd></div><div><dt>Leadership question</dt><dd>Are labels accurate, fair, and representative?</dd></div></dl>
+          </article>
+
+          <article class="concept-card reveal">
+            <span class="concept-icon">U</span>
+            <h3>Unsupervised learning</h3>
+            <p>The model searches unlabeled data for patterns, groups, unusual records, or compressed representations without a known target answer.</p>
+            <dl class="mini-definition"><div><dt>Inputs</dt><dd>Unlabeled data</dd></div><div><dt>Examples</dt><dd>Customer segments, anomaly detection, topic grouping</dd></div><div><dt>Leadership question</dt><dd>Do the discovered patterns have meaningful business value?</dd></div></dl>
+          </article>
+
+          <article class="concept-card reveal">
+            <span class="concept-icon">SS</span>
+            <h3>Semi-supervised learning</h3>
+            <p>The model combines a small labeled dataset with a larger unlabeled dataset. It is valuable when expert labeling is expensive or slow.</p>
+            <dl class="mini-definition"><div><dt>Inputs</dt><dd>Few labeled and many unlabeled examples</dd></div><div><dt>Examples</dt><dd>Medical images, document classification, industrial inspection</dd></div><div><dt>Leadership question</dt><dd>How will uncertain pseudo-labels be reviewed?</dd></div></dl>
+          </article>
+
+          <article class="concept-card reveal">
+            <span class="concept-icon">R</span>
+            <h3>Reinforcement learning</h3>
+            <p>An agent learns through actions, rewards, penalties, and repeated interaction with an environment rather than from a fixed answer key.</p>
+            <dl class="mini-definition"><div><dt>Inputs</dt><dd>State, action, and reward signals</dd></div><div><dt>Examples</dt><dd>Robotics, resource allocation, game strategies</dd></div><div><dt>Leadership question</dt><dd>Does the reward encourage safe and intended behavior?</dd></div></dl>
+          </article>
+        </div>
+
+        <div class="decision-matrix reveal">
+          <h3>Quick selection questions</h3>
+          <div class="decision-grid">
+            <div><strong>Known target?</strong><span>Use supervised learning when reliable labels and a clear outcome exist.</span></div>
+            <div><strong>Need discovery?</strong><span>Use unsupervised learning when the goal is to find structure or anomalies.</span></div>
+            <div><strong>Few labels?</strong><span>Consider semi-supervised learning when expert annotation is limited.</span></div>
+            <div><strong>Sequential decisions?</strong><span>Consider reinforcement learning when actions change future conditions.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="case-study">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">Real-world analysis</p><h2>Case study: Manufacturing quality inspection</h2><p>Comparing traditional machine learning and deep learning for identifying defective products.</p></div>
+
+        <div class="case-study reveal">
+          <div>
+            <p class="artifact-label">Business problem</p>
+            <h3>Reduce missed defects without slowing production</h3>
+            <p>
+              A manufacturer wants to detect scratches, cracks, incorrect assembly, and surface defects before
+              products leave the production line. The organization has sensor readings, measurements, machine
+              settings, inspection notes, and a growing collection of product images. Leaders must choose an
+              approach that balances accuracy, implementation cost, explainability, data availability, and employee trust.
+            </p>
+          </div>
+          <div class="decision-panel"><h4>Success measures</h4><ul class="check-list compact-list"><li>Higher defect-detection rate</li><li>Low false-rejection rate</li><li>Fast production-line response</li><li>Traceable decisions and audit records</li><li>Safe human override process</li></ul></div>
+        </div>
+
+        <div class="table-wrap reveal">
+          <table class="comparison-table">
+            <caption>Traditional machine learning versus deep learning</caption>
+            <thead><tr><th>Dimension</th><th>Traditional machine learning</th><th>Deep learning</th></tr></thead>
+            <tbody>
+              <tr><td>Best input</td><td>Structured measurements, sensor readings, manually calculated image features</td><td>Large collections of raw images or other high-dimensional data</td></tr>
+              <tr><td>Feature process</td><td>Engineers select meaningful variables such as edge count, dimensions, temperature, or vibration</td><td>The neural network learns visual features automatically across many layers</td></tr>
+              <tr><td>Data need</td><td>Can perform well with smaller, carefully prepared datasets</td><td>Usually benefits from larger labeled datasets and more variation</td></tr>
+              <tr><td>Computing need</td><td>Often lower and easier to run on standard infrastructure</td><td>Often higher, especially during CNN training</td></tr>
+              <tr><td>Explainability</td><td>Frequently easier to interpret and explain to quality teams</td><td>Can be harder to explain and may require additional interpretation methods</td></tr>
+              <tr><td>Use in this case</td><td>Predict defects from sensor and process variables</td><td>Detect complex visual defects directly from product images</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout reveal">
+          <p class="artifact-label">Recommended approach</p>
+          <h3>A staged hybrid solution</h3>
+          <p>
+            I would begin with a supervised traditional ML model using structured sensor and process data because
+            it is less expensive, easier to explain, and can establish a baseline quickly. In parallel, I would pilot
+            a CNN on a limited set of approved product images for defects that are difficult to describe with manual
+            features. The two systems could later be combined, but only after data quality, false positives, employee
+            feedback, and production impact are measured. This recommendation avoids selecting deep learning only
+            because it appears more advanced.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="leadership">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">Adaptability and change leadership</p><h2>Technical success depends on human readiness</h2><p>AI/ML integration changes workflows, responsibilities, confidence, and decision-making—not only software.</p></div>
+
+        <div class="process-flow">
+          <article class="process-step reveal"><span>1</span><h3>Clarify the purpose</h3><p>Explain the problem, why AI is being considered, what the system will not do, and how success will be measured.</p></article>
+          <article class="process-step reveal"><span>2</span><h3>Prepare trustworthy data</h3><p>Review quality, labeling, access, privacy, bias, and whether historical data reflects current operations.</p></article>
+          <article class="process-step reveal"><span>3</span><h3>Start with a controlled pilot</h3><p>Limit the first implementation, compare it with a baseline, collect user feedback, and revise before expansion.</p></article>
+          <article class="process-step reveal"><span>4</span><h3>Communicate role changes</h3><p>Show how employees will use, verify, challenge, and override model recommendations rather than presenting AI as replacement.</p></article>
+          <article class="process-step reveal"><span>5</span><h3>Learn and adapt</h3><p>Monitor model drift, errors, user behavior, operational impact, and stakeholder concerns; update the plan as evidence changes.</p></article>
+        </div>
+
+        <div class="leadership-grid reveal">
+          <article><h3>Faith-informed leadership</h3><p>Being empowered to lead does not mean having every answer. It means using knowledge with humility, seeking wisdom, listening to others, and accepting responsibility for how a decision affects people.</p></article>
+          <article><h3>Adaptive leadership</h3><p>An adaptive leader separates the fixed goal from the method. The goal may be better quality, but the model, workflow, timeline, training plan, and rollout should change when new evidence reveals weaknesses.</p></article>
+          <article><h3>Employee trust</h3><p>Trust grows when leaders explain data use, admit limitations, invite questions, provide training, and preserve meaningful human oversight for high-impact decisions.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reflection">
+      <div class="container narrow">
+        <div class="section-heading reveal"><p class="eyebrow">Required reflection</p><h2>Artifact 2 detailed reflection</h2></div>
+
+        <div class="reflection-block reveal"><h3>Why I selected this artifact</h3><p>I selected the Machine Learning Decision Guide because it captures the central learning from Workshop 2 in a form that is useful beyond the classroom. It does not simply list definitions. It demonstrates how I would explain learning types to a professional audience, evaluate a real business problem, compare traditional machine learning with deep learning, and recommend a realistic implementation approach. These are important competencies for someone who wants to contribute to AI-enabled software projects and eventually lead technical change.</p></div>
+
+        <div class="reflection-block reveal"><h3>What the artifact demonstrates</h3><p>The artifact demonstrates conceptual knowledge, case analysis, technical communication, model-selection reasoning, and change-leadership awareness. I explain supervised, unsupervised, semi-supervised, and reinforcement learning in terms of data, feedback, use cases, and leadership questions. The manufacturing example shows that I can evaluate data types, infrastructure, interpretability, accuracy, cost, and human oversight instead of assuming one model is always superior.</p></div>
+
+        <div class="reflection-block reveal"><h3>What I learned about machine-learning choices</h3><p>The most important technical lesson was that model selection begins with the problem and the available evidence. A supervised model requires dependable labels. Unsupervised results still need human interpretation. Semi-supervised learning can reduce labeling effort but introduces uncertainty. Reinforcement learning requires carefully designed rewards because a system may optimize the reward without respecting the broader purpose. Deep learning can learn powerful representations, but it may require more data, computing resources, monitoring, and explanation than a traditional model.</p></div>
+
+        <div class="reflection-block reveal"><h3>What I learned about machine learning versus deep learning</h3><p>I learned that deep learning is a specialized part of machine learning rather than a completely separate field. Traditional ML often depends on human-selected features and can be effective for structured data, smaller datasets, and explainable decisions. Deep learning uses layered neural networks to learn features from complex inputs such as images, audio, and text. In the manufacturing case, a traditional model could analyze sensor variables while a CNN could inspect images. The strongest solution may use both, but only when each component adds measurable value.</p></div>
+
+        <div class="reflection-block reveal"><h3>Adaptability and change leadership</h3><p>Workshop 2 helped me understand that AI adoption is an adaptive challenge. Leaders cannot solve it only by installing software or assigning a technical team. Employees may worry about job changes, trust, surveillance, or unfair decisions. Data may be incomplete, and early model results may not match expectations. A leader must communicate the purpose, involve users, provide training, create feedback channels, and revise the rollout. Adaptability means preserving the desired outcome while remaining willing to change the method.</p></div>
+
+        <div class="reflection-block reveal"><h3>Biblical and personal application</h3><p>From a biblical perspective, leadership is stewardship rather than control. Knowledge and authority should be used to serve people, protect them from preventable harm, and make honest decisions. This perspective reminds me to avoid exaggerating what AI can do and to consider employees who may be affected by automation. Personally, I can apply this by listening before recommending a system, asking for evidence, acknowledging uncertainty, and treating disagreement as useful information rather than resistance that must be ignored.</p></div>
+
+        <div class="reflection-block reveal"><h3>Value for different audiences</h3><p>For a hiring manager, this guide shows that I can connect technical knowledge with business judgment and leadership. For engineers and data professionals, the comparison identifies practical tradeoffs involving features, labels, infrastructure, and monitoring. For managers and end users, the language avoids unnecessary complexity and focuses on how model choices affect workflows, trust, and accountability. The artifact can also be shortened into an executive summary or expanded into a technical implementation plan depending on the audience.</p></div>
+
+        <div class="reflection-block reveal"><h3>Future improvements</h3><p>I would improve this artifact by adding a small sample dataset, a baseline model, a confusion matrix, and a CNN prototype so the recommendation could be supported with measured results. I would also include estimated cost, implementation phases, data-governance roles, and a stakeholder communication plan. Another improvement would be to create separate versions for executives, quality engineers, and data scientists so each audience receives the level of detail most relevant to its decisions.</p></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="references">
+      <div class="container narrow">
+        <div class="section-heading reveal"><p class="eyebrow">Sources</p><h2>References</h2></div>
+        <div class="references reveal">
+          <p>Géron, A. (2022). <em>Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow</em> (3rd ed.). O'Reilly Media.</p>
+          <p>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). <em>Deep learning</em>. MIT Press. <a href="https://www.deeplearningbook.org/" target="_blank" rel="noopener">https://www.deeplearningbook.org/</a></p>
+          <p>LeCun, Y., Bengio, Y., &amp; Hinton, G. (2015). Deep learning. <em>Nature, 521</em>, 436–444. <a href="https://doi.org/10.1038/nature14539" target="_blank" rel="noopener">https://doi.org/10.1038/nature14539</a></p>
+          <p>Russell, S., &amp; Norvig, P. (2021). <em>Artificial intelligence: A modern approach</em> (4th ed.). Pearson.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="artifact-next"><div class="container artifact-next-row"><div><p class="eyebrow">Continue the portfolio</p><h2>Next: Neural Network Learning Lab</h2></div><a class="button" href="artifact-3.html">View Artifact 3 →</a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-row"><p>© <span id="year"></span> Rachana Reddy. Professional Portfolio.</p><a href="index.html">Return to home</a></div></footer>
+</body>
+</html>

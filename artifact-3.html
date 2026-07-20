@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Artifact 3: Neural Network Learning Lab covering training methods, ANN, CNN, RNN, GAN, activation functions, deepfake ethics, and communication for change leadership.">
+  <title>Artifact 3 | Neural Network Learning Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">RR</span><span>Rachana Reddy</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-menu"><span class="sr-only">Open navigation menu</span>☰</button>
+      <div class="nav-links" id="primary-menu">
+        <a href="index.html#artifacts">All Artifacts</a>
+        <a href="#overview">Overview</a>
+        <a href="#training">Training</a>
+        <a href="#architectures">Architectures</a>
+        <a href="#ethics">Ethics</a>
+        <a href="#communication">Communication</a>
+        <a href="#reflection">Reflection</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="artifact-hero artifact-hero-three">
+      <div class="container narrow reveal">
+        <a class="back-link" href="index.html">← Back to portfolio</a>
+        <p class="eyebrow">Professional Portfolio · Artifact 3</p>
+        <h1>Neural Network Learning Lab</h1>
+        <p class="artifact-intro">
+          A Workshop 3 artifact explaining how neural networks learn, comparing major architectures,
+          examining synthetic-data ethics, and connecting communication with adaptive AI leadership.
+        </p>
+        <div class="artifact-meta">
+          <span>Workshop 3</span><span>Deep Learning</span><span>Neural Networks</span><span>Training Methods</span><span>Responsible AI</span>
+        </div>
+        <div class="hero-actions"><a class="button" href="#training">Explore the Learning Cycle</a><a class="button button-secondary" href="#reflection">Read Reflection</a></div>
+      </div>
+    </section>
+
+    <nav class="artifact-jump" aria-label="Artifact sections"><div class="container"><a href="#overview">Overview</a><a href="#training">Training Cycle</a><a href="#architectures">Architectures</a><a href="#ethics">Ethics</a><a href="#communication">Communication</a><a href="#reflection">Reflection</a></div></nav>
+
+    <section class="section" id="overview">
+      <div class="container narrow">
+        <div class="section-heading reveal"><p class="eyebrow">Artifact overview</p><h2>Learning from error, feedback, and adaptation</h2></div>
+        <div class="prose reveal">
+          <p>
+            I created this artifact to explain deep learning in a way that connects technical processes with
+            leadership and problem-solving. Neural networks improve through repeated cycles of prediction, error
+            measurement, adjustment, and testing. That process mirrors an important leadership lesson: progress
+            requires feedback, honest evaluation, and a willingness to revise an approach when the result is not
+            meeting the goal.
+          </p>
+          <p>
+            The artifact explains the training cycle, activation functions, and four major neural-network
+            architectures: artificial neural networks, convolutional neural networks, recurrent neural networks,
+            and generative adversarial networks. It also summarizes the value of questioning an AI chatbot about
+            training methods, discusses the ethical risks of synthetic data and deepfakes, and presents a
+            communication framework for responsible AI/ML integration.
+          </p>
+        </div>
+        <div class="audience-grid reveal">
+          <article><h3>Intended audience</h3><p>Hiring managers, software teams, AI learners, technical leaders, and stakeholders who need an understandable explanation of neural networks and their risks.</p></article>
+          <article><h3>Professional purpose</h3><p>To demonstrate deep-learning knowledge, analytical questioning, ethical reasoning, communication, adaptability, and the ability to translate theory into practice.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="training">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">How neural networks learn</p><h2>The training and feedback cycle</h2><p>Training is an iterative process that turns examples and measured error into adjusted model parameters.</p></div>
+
+        <div class="training-loop reveal" aria-label="Neural network training cycle">
+          <div class="loop-step"><span>1</span><h3>Prepare data</h3><p>Collect, clean, label, split, and normalize examples that represent the intended real-world task.</p></div>
+          <div class="loop-arrow" aria-hidden="true">→</div>
+          <div class="loop-step"><span>2</span><h3>Forward pass</h3><p>Input values move through weighted connections, biases, layers, and activation functions to produce a prediction.</p></div>
+          <div class="loop-arrow" aria-hidden="true">→</div>
+          <div class="loop-step"><span>3</span><h3>Measure loss</h3><p>A loss function measures the difference between the prediction and the expected result.</p></div>
+          <div class="loop-arrow" aria-hidden="true">→</div>
+          <div class="loop-step"><span>4</span><h3>Backpropagate</h3><p>Gradients estimate how each weight contributed to the error so the model knows what should change.</p></div>
+          <div class="loop-arrow" aria-hidden="true">→</div>
+          <div class="loop-step"><span>5</span><h3>Optimize</h3><p>An optimizer updates weights and biases using the gradients and learning rate.</p></div>
+          <div class="loop-arrow" aria-hidden="true">↺</div>
+        </div>
+
+        <div class="concept-grid three-column">
+          <article class="concept-card reveal"><span class="concept-icon">AF</span><h3>Activation functions</h3><p>Activation functions introduce nonlinearity so a network can learn more than a simple linear relationship. ReLU is widely used in hidden layers, sigmoid supports probability-like outputs, and softmax can represent probabilities across several classes.</p></article>
+          <article class="concept-card reveal"><span class="concept-icon">LR</span><h3>Learning rate</h3><p>The learning rate controls the size of each parameter update. A rate that is too high may overshoot useful solutions; a rate that is too low may make training slow or get stuck.</p></article>
+          <article class="concept-card reveal"><span class="concept-icon">GV</span><h3>Generalization</h3><p>A successful model performs well on new data, not only the training examples. Validation, regularization, representative data, and monitoring help reduce overfitting.</p></article>
+        </div>
+
+        <div class="chat-learning reveal">
+          <div>
+            <p class="artifact-label">Activity 3.3 connection</p>
+            <h3>Questions about training methods</h3>
+            <p>
+              The chatbot discussion strengthened learning by allowing me to ask follow-up questions instead of
+              memorizing isolated terms. I focused on why weights are updated, how backpropagation relates to the
+              loss function, why training and testing data must remain separate, how overfitting appears, and what
+              changes when the model receives images, sequences, or synthetic examples.
+            </p>
+          </div>
+          <blockquote>
+            “The value of the chatbot was not that it replaced the lesson. It helped me test my understanding,
+            ask for simpler explanations, compare examples, and identify where I still needed verification.”
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="architectures">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">Architecture comparison</p><h2>ANN, CNN, RNN, and GAN</h2><p>Different architectures organize information and learning in ways suited to different kinds of problems.</p></div>
+
+        <div class="architecture-grid">
+          <article class="architecture-card reveal">
+            <div class="architecture-visual ann-visual" aria-hidden="true"><span></span><span></span><span></span><i></i><i></i><i></i></div>
+            <p class="artifact-label">Artificial Neural Network</p>
+            <h3>ANN: General pattern learning</h3>
+            <p>A feedforward ANN connects input, hidden, and output layers. It can model complex relationships in structured data when enough representative examples are available.</p>
+            <ul class="check-list compact-list"><li>Common use: classification and prediction</li><li>Strength: flexible nonlinear modeling</li><li>Risk: overfitting and limited interpretability</li></ul>
+          </article>
+
+          <article class="architecture-card reveal">
+            <div class="architecture-visual cnn-visual" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+            <p class="artifact-label">Convolutional Neural Network</p>
+            <h3>CNN: Spatial feature learning</h3>
+            <p>A CNN applies filters across local regions to detect edges, textures, shapes, and increasingly complex visual patterns while sharing parameters.</p>
+            <ul class="check-list compact-list"><li>Common use: images and video</li><li>Strength: automatic spatial feature learning</li><li>Risk: data bias and hidden visual shortcuts</li></ul>
+          </article>
+
+          <article class="architecture-card reveal">
+            <div class="architecture-visual rnn-visual" aria-hidden="true"><span>A</span><span>B</span><span>C</span><i>↻</i></div>
+            <p class="artifact-label">Recurrent Neural Network</p>
+            <h3>RNN: Sequential context</h3>
+            <p>An RNN passes information from earlier steps into later steps, allowing the network to represent order and context in sequences.</p>
+            <ul class="check-list compact-list"><li>Common use: time series, text, speech</li><li>Strength: sequence awareness</li><li>Risk: vanishing gradients and long-context limits</li></ul>
+          </article>
+
+          <article class="architecture-card reveal">
+            <div class="architecture-visual gan-visual" aria-hidden="true"><span>G</span><i>⇄</i><span>D</span></div>
+            <p class="artifact-label">Generative Adversarial Network</p>
+            <h3>GAN: Adversarial generation</h3>
+            <p>A generator creates synthetic examples while a discriminator attempts to distinguish generated examples from real ones. Competition improves both networks.</p>
+            <ul class="check-list compact-list"><li>Common use: synthetic images and augmentation</li><li>Strength: realistic data generation</li><li>Risk: instability, misuse, and deepfakes</li></ul>
+          </article>
+        </div>
+
+        <div class="table-wrap reveal">
+          <table class="comparison-table">
+            <caption>Architecture selection summary</caption>
+            <thead><tr><th>Architecture</th><th>Best fit</th><th>Key design idea</th><th>Example scenario</th></tr></thead>
+            <tbody>
+              <tr><td>ANN</td><td>Structured or tabular patterns</td><td>Layered weighted connections</td><td>Predicting equipment failure from sensor variables</td></tr>
+              <tr><td>CNN</td><td>Spatial information</td><td>Shared filters and local receptive fields</td><td>Identifying defects in manufacturing images</td></tr>
+              <tr><td>RNN</td><td>Ordered sequences</td><td>Hidden state carries prior context</td><td>Forecasting a sequence of system events</td></tr>
+              <tr><td>GAN</td><td>Generating realistic synthetic data</td><td>Generator and discriminator compete</td><td>Creating training images when real examples are limited</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="ethics">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">Responsible AI</p><h2>Synthetic data, deepfakes, and ethical boundaries</h2><p>Generative capability can support learning and innovation, but the same capability can deceive, exploit, or damage trust.</p></div>
+
+        <div class="risk-benefit-grid">
+          <article class="risk-benefit benefit reveal"><h3>Potential benefits</h3><ul class="check-list"><li>Expand limited training datasets</li><li>Simulate rare or dangerous situations</li><li>Protect privacy when carefully designed</li><li>Support creative design and prototyping</li><li>Test systems before real-world deployment</li></ul></article>
+          <article class="risk-benefit risk reveal"><h3>Potential harms</h3><ul class="check-list"><li>Impersonation and misinformation</li><li>Nonconsensual synthetic media</li><li>Fraud and social engineering</li><li>Biased or unrealistic synthetic examples</li><li>Erosion of trust in legitimate evidence</li></ul></article>
+        </div>
+
+        <div class="callout reveal">
+          <p class="artifact-label">Responsible-use framework</p>
+          <h3>Before generating or using synthetic data</h3>
+          <div class="decision-grid">
+            <div><strong>Purpose</strong><span>Is the use legitimate, necessary, and connected to a clear benefit?</span></div>
+            <div><strong>Consent</strong><span>Are people, identities, and protected materials being used appropriately?</span></div>
+            <div><strong>Disclosure</strong><span>Will users know that content or data is synthetic?</span></div>
+            <div><strong>Validation</strong><span>Does synthetic data preserve meaningful patterns without creating false confidence?</span></div>
+            <div><strong>Security</strong><span>Could the model, outputs, or identity information be misused?</span></div>
+            <div><strong>Accountability</strong><span>Who reviews harm, responds to incidents, and approves continued use?</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="communication">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">Activity 3.4 connection</p><h2>Communicating for learning and change</h2><p>People are more likely to learn, adapt, and participate when communication is understandable, two-way, and connected to their work.</p></div>
+
+        <div class="process-flow communication-flow">
+          <article class="process-step reveal"><span>1</span><h3>Translate</h3><p>Explain technical ideas through plain language, visuals, examples, and comparisons without hiding important limitations.</p></article>
+          <article class="process-step reveal"><span>2</span><h3>Listen</h3><p>Invite questions from employees, users, and affected stakeholders to identify confusion, risk, and resistance early.</p></article>
+          <article class="process-step reveal"><span>3</span><h3>Practice</h3><p>Provide guided examples, safe exercises, and role-specific training so people learn how to verify and challenge AI output.</p></article>
+          <article class="process-step reveal"><span>4</span><h3>Reinforce</h3><p>Repeat the purpose, responsibilities, escalation process, and measurement plan as the system and workflow evolve.</p></article>
+          <article class="process-step reveal"><span>5</span><h3>Adapt</h3><p>Use feedback and performance evidence to revise both the technology and the communication strategy.</p></article>
+        </div>
+
+        <div class="leadership-grid reveal">
+          <article><h3>Biblical example: Nehemiah</h3><p>Nehemiah responded to a difficult reality through prayer, careful assessment, planning, role assignment, encouragement, and continued communication. His example shows that adaptive leadership combines faith with practical action.</p></article>
+          <article><h3>Personal application</h3><p>When I face a new technical challenge, I can avoid pretending that I understand everything immediately. I can ask better questions, divide the problem, seek guidance, test ideas, and communicate progress honestly.</p></article>
+          <article><h3>AI leadership application</h3><p>A leader should explain not only how a model works but also how decisions will be reviewed, what happens when the model is wrong, and how employees can raise concerns without fear.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="reflection">
+      <div class="container narrow">
+        <div class="section-heading reveal"><p class="eyebrow">Required reflection</p><h2>Artifact 3 detailed reflection</h2></div>
+
+        <div class="reflection-block reveal"><h3>Why I selected this artifact</h3><p>I selected the Neural Network Learning Lab because it represents a significant step in my AI/ML learning. Workshop 3 moved beyond general definitions and required me to understand how models improve through training, how different architectures are designed for different data, and how synthetic outputs create ethical responsibilities. This artifact allows me to present those ideas in an organized, professional format while also showing how communication and adaptive leadership influence successful learning and implementation.</p></div>
+
+        <div class="reflection-block reveal"><h3>Technical knowledge demonstrated</h3><p>The artifact demonstrates that I understand the basic training cycle of a neural network: data preparation, forward propagation, loss calculation, backpropagation, optimization, validation, and repetition. It also explains the role of activation functions and the need for generalization. The architecture comparison shows that I can distinguish ANN, CNN, RNN, and GAN designs according to the structure of the data, the task, the key mechanism, and the associated risks.</p></div>
+
+        <div class="reflection-block reveal"><h3>What I learned about neural-network training</h3><p>I learned that neural networks do not develop understanding in the human sense. They adjust numerical parameters to reduce a defined error across examples. This process can produce strong predictions, but its quality depends on the data, labels, objective, architecture, learning rate, and evaluation method. A low training loss is not enough because the model may overfit. Reliable performance requires testing on unseen data and continued monitoring after deployment.</p></div>
+
+        <div class="reflection-block reveal"><h3>Value of the chatbot dialogue</h3><p>The chatbot activity helped me turn abstract terms into a connected process. I could ask why each step was necessary, request a simpler explanation, test an example, and identify misunderstandings. At the same time, the activity reminded me that an AI explanation can be incomplete or overly confident. Meaningful dialogue requires follow-up questions and verification. The chatbot was most valuable as a learning partner that supported reflection, not as a final authority.</p></div>
+
+        <div class="reflection-block reveal"><h3>Ethical learning</h3><p>GANs and other generative models showed me that technical innovation can create both benefit and harm. Synthetic data may support privacy, rare-event simulation, or data augmentation, but synthetic media can also enable impersonation, fraud, nonconsensual content, and misinformation. Responsible use requires consent, disclosure, validation, security, and clear accountability. I learned that ethical review should begin during design rather than after a harmful output appears.</p></div>
+
+        <div class="reflection-block reveal"><h3>Communication and adaptive leadership</h3><p>Communication is essential because deep-learning systems can appear mysterious to employees and decision-makers. A leader must translate concepts without oversimplifying risk, create opportunities for questions, provide role-specific practice, and explain how human oversight will work. The training cycle also provides a useful leadership metaphor: leaders should compare results with goals, learn from error, update their approach, and test again. Adaptation is not failure; it is a disciplined response to evidence.</p></div>
+
+        <div class="reflection-block reveal"><h3>Biblical and personal application</h3><p>Nehemiah's example helped me connect faith, resilience, assessment, planning, and communication. He did not ignore the difficulty or act without preparation. He listened, prayed, inspected the situation, organized people, and continued encouraging them during opposition. In my professional life, I can apply the same pattern by responding to uncertainty with humility, careful analysis, collaboration, and perseverance rather than fear or rushed decisions.</p></div>
+
+        <div class="reflection-block reveal"><h3>Value for different audiences</h3><p>For hiring managers, this artifact demonstrates advanced learning, ethical awareness, and the ability to communicate technical topics. For software and data teams, it provides a concise comparison of training steps and architectures. For nontechnical leaders, the ethical and communication sections explain why an AI project needs governance, employee preparation, and human review. For students, the artifact provides a study guide that connects definitions to practical examples and leadership meaning.</p></div>
+
+        <div class="reflection-block reveal"><h3>Future improvements</h3><p>I would improve the artifact by adding a small interactive neural-network demonstration showing how predictions and loss change during training. I would include diagrams created from an actual model, a comparison of training and validation curves, and a brief experiment with an image classifier or sequence model. I would also strengthen the ethical section with an incident-response plan, content labeling approach, and audience-specific guidelines for synthetic data. These additions would move the artifact from a conceptual guide toward a tested technical demonstration.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="references">
+      <div class="container narrow">
+        <div class="section-heading reveal"><p class="eyebrow">Sources</p><h2>References</h2></div>
+        <div class="references reveal">
+          <p>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). <em>Deep learning</em>. MIT Press. <a href="https://www.deeplearningbook.org/" target="_blank" rel="noopener">https://www.deeplearningbook.org/</a></p>
+          <p>LeCun, Y., Bengio, Y., &amp; Hinton, G. (2015). Deep learning. <em>Nature, 521</em>, 436–444. <a href="https://doi.org/10.1038/nature14539" target="_blank" rel="noopener">https://doi.org/10.1038/nature14539</a></p>
+          <p>Mirsky, Y., &amp; Lee, W. (2021). The creation and detection of deepfakes: A survey. <em>ACM Computing Surveys, 54</em>(1), Article 7. <a href="https://doi.org/10.1145/3425780" target="_blank" rel="noopener">https://doi.org/10.1145/3425780</a></p>
+          <p>National Institute of Standards and Technology. (2023). <em>Artificial intelligence risk management framework (AI RMF 1.0)</em>. <a href="https://doi.org/10.6028/NIST.AI.100-1" target="_blank" rel="noopener">https://doi.org/10.6028/NIST.AI.100-1</a></p>
+          <p>Rumelhart, D. E., Hinton, G. E., &amp; Williams, R. J. (1986). Learning representations by back-propagating errors. <em>Nature, 323</em>, 533–536. <a href="https://doi.org/10.1038/323533a0" target="_blank" rel="noopener">https://doi.org/10.1038/323533a0</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="artifact-next"><div class="container artifact-next-row"><div><p class="eyebrow">Portfolio collection</p><h2>Review all three artifacts</h2></div><a class="button" href="index.html#artifacts">Return to Artifacts →</a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-row"><p>© <span id="year"></span> Rachana Reddy. Professional Portfolio.</p><a href="index.html">Return to home</a></div></footer>
+</body>
+</html>
